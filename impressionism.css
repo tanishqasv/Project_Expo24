@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4D362E;
+  }
+  
+  img{
+    margin: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out; 
+  }
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile1 {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile img{
+    width: auto;
+    height: 500px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+  }
+  .profile1 img {
+    width: auto;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .profile-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .profile-info h1, .profile-info h2 {
+    margin-top: 0;
+  }
+
+
+#button{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ button{
+  height: 50px;
+  width: 100px;
+  font-size: large;
+  font-weight: bold;
+  background-color: black;
+ }
+
+
+  

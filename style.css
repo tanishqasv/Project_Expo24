@@ -1,0 +1,153 @@
+body{
+    font-family:"garamond", "Inconsolata",sans-serif;
+    background-color: #4D362E;
+    overflow-x: hidden;
+}
+#tanya{
+    padding: 9px;
+    font-size: 55px;
+    color: #ebd1b6;
+}
+
+h2{
+    font-size: 45px;
+}
+h1,h2,p{
+    text-align: center;
+}
+
+p{
+    margin: auto;
+    color: #fad1a9;
+    text-align: left;
+    font-size: 22px;
+    padding: 42px;
+    display: inline-block;
+    max-width: 900px;
+    
+}
+#aboutinfo{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+h1,h2{
+color: rgb(253, 253, 253);
+}
+
+#home{
+    border: none;
+}
+
+.genreimage:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.genreimage{
+    margin: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+
+
+#homeimage{
+      display: block;
+      height: auto;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      box-shadow: -3px -3px 20px 8px rgb(216, 184, 137);
+      /* border-radius: 
+      box-shadow: 15px 15px 25px rgb(65, 70, 49); */
+}
+
+
+.block{
+    display: block;
+    margin: auto;
+}
+
+.input{
+    display: block;
+    margin: auto;
+}
+button{
+    padding: 5px;
+    margin: auto;
+    width: 70px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    
+}
+button:hover{
+    transform: scale(0.9);
+    background-color: #ebe8e5;
+}
+
+
+
+#contact{
+
+    background-color: #bb956c;
+    box-shadow: 10px 10px 10px black;
+    margin: auto;
+    width: 75%;
+    padding-bottom: 20px;
+    
+}
+
+form{
+    padding: 20px;
+}
+
+#genre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.renu {
+    position: relative;
+    width: 30%;
+    margin-bottom: 489px;
+}
+
+
+
+.renu p {
+    position: absolute;
+    padding: 10px;
+    /* bottom: ; */
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+label{
+    font-size: 20px;
+    
+    
+}
+
+input, textarea{
+    height: 30px;
+    width: 250px;
+}
+
+button{
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+}
+
+
